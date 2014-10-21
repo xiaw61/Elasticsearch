@@ -1,0 +1,82 @@
+[2014-10-20 14:34:08,080][INFO ][node                     ] [Native] version[1.3.4], pid[14898], build[a70f3cc/2014-09-30T09:07:17Z]
+[2014-10-20 14:34:08,081][INFO ][node                     ] [Native] initializing ...
+[2014-10-20 14:34:08,083][INFO ][plugins                  ] [Native] loaded [], sites []
+[2014-10-20 14:34:09,602][INFO ][node                     ] [Native] initialized
+[2014-10-20 14:34:09,602][INFO ][node                     ] [Native] starting ...
+[2014-10-20 14:34:09,689][INFO ][transport                ] [Native] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.25.52.53:9300]}
+[2014-10-20 14:34:09,713][INFO ][discovery                ] [Native] elasticsearch/eRcRZ5HoTV-x1_VmvFDL2w
+[2014-10-20 14:34:12,726][INFO ][cluster.service          ] [Native] new_master [Native][eRcRZ5HoTV-x1_VmvFDL2w][xiawMac.local][inet[/172.25.52.53:9300]], reason: zen-disco-join (elected_as_master)
+[2014-10-20 14:34:12,742][INFO ][http                     ] [Native] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.25.52.53:9200]}
+[2014-10-20 14:34:12,742][INFO ][node                     ] [Native] started
+[2014-10-20 14:34:12,751][INFO ][gateway                  ] [Native] recovered [0] indices into cluster_state
+[2014-10-20 14:47:21,586][INFO ][cluster.metadata         ] [Native] [customer] creating index, cause [api], shards [5]/[1], mappings []
+[2014-10-20 14:51:18,727][INFO ][cluster.metadata         ] [Native] [customer] update_mapping [external] (dynamic)
+[2014-10-20 14:58:52,590][INFO ][cluster.metadata         ] [Native] [bank] creating index, cause [auto(bulk api)], shards [5]/[1], mappings []
+[2014-10-20 14:58:52,758][INFO ][cluster.metadata         ] [Native] [bank] update_mapping [account] (dynamic)
+[2014-10-20 16:00:32,670][INFO ][cluster.metadata         ] [Native] [my-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-20 16:00:32,715][INFO ][cluster.metadata         ] [Native] [my-index] update_mapping [test-type] (dynamic)
+[2014-10-20 16:13:07,756][INFO ][node                     ] [Spider-Girl] version[1.3.4], pid[19471], build[a70f3cc/2014-09-30T09:07:17Z]
+[2014-10-20 16:13:07,757][INFO ][node                     ] [Spider-Girl] initializing ...
+[2014-10-20 16:13:07,760][INFO ][plugins                  ] [Spider-Girl] loaded [], sites []
+[2014-10-20 16:13:09,869][INFO ][node                     ] [Spider-Girl] initialized
+[2014-10-20 16:13:09,870][INFO ][node                     ] [Spider-Girl] starting ...
+[2014-10-20 16:13:09,935][INFO ][transport                ] [Spider-Girl] bound_address {inet[/0:0:0:0:0:0:0:0:9301]}, publish_address {inet[/172.25.52.53:9301]}
+[2014-10-20 16:13:09,949][INFO ][discovery                ] [Spider-Girl] elasticsearch/bS8UBn91T0W8bgZktCUS7Q
+[2014-10-20 16:13:12,959][INFO ][cluster.service          ] [Spider-Girl] new_master [Spider-Girl][bS8UBn91T0W8bgZktCUS7Q][xiawMac.local][inet[/172.25.52.53:9301]], reason: zen-disco-join (elected_as_master)
+[2014-10-20 16:13:12,978][INFO ][http                     ] [Spider-Girl] bound_address {inet[/0:0:0:0:0:0:0:0:9201]}, publish_address {inet[/172.25.52.53:9201]}
+[2014-10-20 16:13:12,979][INFO ][node                     ] [Spider-Girl] started
+[2014-10-20 16:13:13,383][INFO ][gateway                  ] [Spider-Girl] recovered [3] indices into cluster_state
+[2014-10-20 16:14:55,690][INFO ][node                     ] [Dionysus] version[1.3.4], pid[19556], build[a70f3cc/2014-09-30T09:07:17Z]
+[2014-10-20 16:14:55,691][INFO ][node                     ] [Dionysus] initializing ...
+[2014-10-20 16:14:55,693][INFO ][plugins                  ] [Dionysus] loaded [], sites []
+[2014-10-20 16:14:57,286][INFO ][node                     ] [Dionysus] initialized
+[2014-10-20 16:14:57,286][INFO ][node                     ] [Dionysus] starting ...
+[2014-10-20 16:14:57,335][INFO ][transport                ] [Dionysus] bound_address {inet[/0:0:0:0:0:0:0:0:9302]}, publish_address {inet[/172.25.52.53:9302]}
+[2014-10-20 16:14:57,348][INFO ][discovery                ] [Dionysus] elasticsearch/y8JihpZiTSKOjJE_SBXSqQ
+[2014-10-20 16:15:00,395][INFO ][cluster.service          ] [Spider-Girl] added {[Dionysus][y8JihpZiTSKOjJE_SBXSqQ][xiawMac.local][inet[/172.25.52.53:9302]],}, reason: zen-disco-receive(join from node[[Dionysus][y8JihpZiTSKOjJE_SBXSqQ][xiawMac.local][inet[/172.25.52.53:9302]]])
+[2014-10-20 16:15:00,404][INFO ][cluster.service          ] [Dionysus] detected_master [Spider-Girl][bS8UBn91T0W8bgZktCUS7Q][xiawMac.local][inet[/172.25.52.53:9301]], added {[Spider-Girl][bS8UBn91T0W8bgZktCUS7Q][xiawMac.local][inet[/172.25.52.53:9301]],}, reason: zen-disco-receive(from master [[Spider-Girl][bS8UBn91T0W8bgZktCUS7Q][xiawMac.local][inet[/172.25.52.53:9301]]])
+[2014-10-20 16:15:00,428][INFO ][http                     ] [Dionysus] bound_address {inet[/0:0:0:0:0:0:0:0:9202]}, publish_address {inet[/172.25.52.53:9202]}
+[2014-10-20 16:15:00,428][INFO ][node                     ] [Dionysus] started
+[2014-10-20 16:16:57,952][INFO ][cluster.service          ] [Spider-Girl] added {[Leonus][sgkime_PTuCZXIaIC5dFkg][xiawMac.local][inet[/172.25.52.53:9303]],}, reason: zen-disco-receive(join from node[[Leonus][sgkime_PTuCZXIaIC5dFkg][xiawMac.local][inet[/172.25.52.53:9303]]])
+[2014-10-20 16:16:57,954][INFO ][cluster.service          ] [Dionysus] added {[Leonus][sgkime_PTuCZXIaIC5dFkg][xiawMac.local][inet[/172.25.52.53:9303]],}, reason: zen-disco-receive(from master [[Spider-Girl][bS8UBn91T0W8bgZktCUS7Q][xiawMac.local][inet[/172.25.52.53:9301]]])
+[2014-10-20 16:17:12,989][INFO ][cluster.service          ] [Spider-Girl] added {[Big Bertha][qPj7RTKlQkmKhSN5n4Waiw][xiawMac.local][inet[/172.25.52.53:9304]],}, reason: zen-disco-receive(join from node[[Big Bertha][qPj7RTKlQkmKhSN5n4Waiw][xiawMac.local][inet[/172.25.52.53:9304]]])
+[2014-10-20 16:17:12,991][INFO ][cluster.service          ] [Dionysus] added {[Big Bertha][qPj7RTKlQkmKhSN5n4Waiw][xiawMac.local][inet[/172.25.52.53:9304]],}, reason: zen-disco-receive(from master [[Spider-Girl][bS8UBn91T0W8bgZktCUS7Q][xiawMac.local][inet[/172.25.52.53:9301]]])
+[2014-10-20 16:17:49,396][WARN ][transport                ] [Spider-Girl] Received response for a request that has timed out, sent [42426ms] ago, timed out [12415ms] ago, action [discovery/zen/fd/ping], node [[Leonus][sgkime_PTuCZXIaIC5dFkg][xiawMac.local][inet[/172.25.52.53:9303]]], id [354]
+[2014-10-20 16:17:49,407][INFO ][cluster.service          ] [Spider-Girl] removed {[Big Bertha][qPj7RTKlQkmKhSN5n4Waiw][xiawMac.local][inet[/172.25.52.53:9304]],}, reason: zen-disco-node_left([Big Bertha][qPj7RTKlQkmKhSN5n4Waiw][xiawMac.local][inet[/172.25.52.53:9304]])
+[2014-10-20 16:17:49,409][INFO ][cluster.service          ] [Dionysus] removed {[Big Bertha][qPj7RTKlQkmKhSN5n4Waiw][xiawMac.local][inet[/172.25.52.53:9304]],}, reason: zen-disco-receive(from master [[Spider-Girl][bS8UBn91T0W8bgZktCUS7Q][xiawMac.local][inet[/172.25.52.53:9301]]])
+[2014-10-20 16:17:49,420][WARN ][discovery.zen.ping.multicast] [Spider-Girl] received ping response ping_response{target [[Native][eRcRZ5HoTV-x1_VmvFDL2w][xiawMac.local][inet[/172.25.52.53:9300]]], master [[Native][eRcRZ5HoTV-x1_VmvFDL2w][xiawMac.local][inet[/172.25.52.53:9300]]], cluster_name[elasticsearch]} with no matching id [1]
+[2014-10-20 16:17:49,425][WARN ][discovery.zen.ping.multicast] [Dionysus] received ping response ping_response{target [[Native][eRcRZ5HoTV-x1_VmvFDL2w][xiawMac.local][inet[/172.25.52.53:9300]]], master [[Native][eRcRZ5HoTV-x1_VmvFDL2w][xiawMac.local][inet[/172.25.52.53:9300]]], cluster_name[elasticsearch]} with no matching id [1]
+[2014-10-20 16:17:49,457][WARN ][discovery.zen.ping.multicast] [Dionysus] received ping response ping_response{target [[Native][eRcRZ5HoTV-x1_VmvFDL2w][xiawMac.local][inet[/172.25.52.53:9300]]], master [[Native][eRcRZ5HoTV-x1_VmvFDL2w][xiawMac.local][inet[/172.25.52.53:9300]]], cluster_name[elasticsearch]} with no matching id [1]
+[2014-10-20 16:17:49,458][WARN ][discovery.zen.ping.multicast] [Spider-Girl] received ping response ping_response{target [[Native][eRcRZ5HoTV-x1_VmvFDL2w][xiawMac.local][inet[/172.25.52.53:9300]]], master [[Native][eRcRZ5HoTV-x1_VmvFDL2w][xiawMac.local][inet[/172.25.52.53:9300]]], cluster_name[elasticsearch]} with no matching id [1]
+[2014-10-20 16:17:49,521][INFO ][cluster.service          ] [Spider-Girl] removed {[Leonus][sgkime_PTuCZXIaIC5dFkg][xiawMac.local][inet[/172.25.52.53:9303]],}, reason: zen-disco-node_left([Leonus][sgkime_PTuCZXIaIC5dFkg][xiawMac.local][inet[/172.25.52.53:9303]])
+[2014-10-20 16:17:49,523][INFO ][cluster.service          ] [Dionysus] removed {[Leonus][sgkime_PTuCZXIaIC5dFkg][xiawMac.local][inet[/172.25.52.53:9303]],}, reason: zen-disco-receive(from master [[Spider-Girl][bS8UBn91T0W8bgZktCUS7Q][xiawMac.local][inet[/172.25.52.53:9301]]])
+[2014-10-20 16:21:35,646][INFO ][node                     ] [Stephen Strange] version[1.3.4], pid[633], build[a70f3cc/2014-09-30T09:07:17Z]
+[2014-10-20 16:21:35,646][INFO ][node                     ] [Stephen Strange] initializing ...
+[2014-10-20 16:21:35,650][INFO ][plugins                  ] [Stephen Strange] loaded [], sites []
+[2014-10-20 16:21:37,767][INFO ][node                     ] [Stephen Strange] initialized
+[2014-10-20 16:21:37,767][INFO ][node                     ] [Stephen Strange] starting ...
+[2014-10-20 16:21:37,855][INFO ][transport                ] [Stephen Strange] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.25.52.53:9300]}
+[2014-10-20 16:21:37,878][INFO ][discovery                ] [Stephen Strange] elasticsearch/S2lS_N7eRUKA5lJttRwxOA
+[2014-10-20 16:21:40,891][INFO ][cluster.service          ] [Stephen Strange] new_master [Stephen Strange][S2lS_N7eRUKA5lJttRwxOA][xiawMac.local][inet[/172.25.52.53:9300]], reason: zen-disco-join (elected_as_master)
+[2014-10-20 16:21:40,910][INFO ][http                     ] [Stephen Strange] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.25.52.53:9200]}
+[2014-10-20 16:21:40,910][INFO ][node                     ] [Stephen Strange] started
+[2014-10-20 16:21:41,342][INFO ][gateway                  ] [Stephen Strange] recovered [3] indices into cluster_state
+[2014-10-20 16:22:02,640][INFO ][node                     ] [Stephen Strange] stopping ...
+[2014-10-20 16:22:02,680][INFO ][node                     ] [Stephen Strange] stopped
+[2014-10-20 16:22:02,680][INFO ][node                     ] [Stephen Strange] closing ...
+[2014-10-20 16:22:02,682][INFO ][node                     ] [Stephen Strange] closed
+[2014-10-20 16:22:22,519][INFO ][node                     ] [Super Rabbit] version[1.3.4], pid[652], build[a70f3cc/2014-09-30T09:07:17Z]
+[2014-10-20 16:22:22,520][INFO ][node                     ] [Super Rabbit] initializing ...
+[2014-10-20 16:22:22,522][INFO ][plugins                  ] [Super Rabbit] loaded [], sites []
+[2014-10-20 16:22:24,067][INFO ][node                     ] [Super Rabbit] initialized
+[2014-10-20 16:22:24,067][INFO ][node                     ] [Super Rabbit] starting ...
+[2014-10-20 16:22:24,115][INFO ][transport                ] [Super Rabbit] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.25.52.53:9300]}
+[2014-10-20 16:22:24,128][INFO ][discovery                ] [Super Rabbit] elasticsearch/3TihL6kySFaHS9j3_J9abg
+[2014-10-20 16:22:27,137][INFO ][cluster.service          ] [Super Rabbit] new_master [Super Rabbit][3TihL6kySFaHS9j3_J9abg][xiawMac.local][inet[/172.25.52.53:9300]], reason: zen-disco-join (elected_as_master)
+[2014-10-20 16:22:27,155][INFO ][http                     ] [Super Rabbit] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.25.52.53:9200]}
+[2014-10-20 16:22:27,155][INFO ][node                     ] [Super Rabbit] started
+[2014-10-20 16:22:27,451][INFO ][gateway                  ] [Super Rabbit] recovered [3] indices into cluster_state
+[2014-10-20 16:22:49,939][INFO ][node                     ] [Super Rabbit] stopping ...
+[2014-10-20 16:22:49,971][INFO ][node                     ] [Super Rabbit] stopped
+[2014-10-20 16:22:49,971][INFO ][node                     ] [Super Rabbit] closing ...
+[2014-10-20 16:22:49,974][INFO ][node                     ] [Super Rabbit] closed

@@ -1,0 +1,482 @@
+[2014-10-21 12:51:34,016][INFO ][node                     ] [Lianda] version[1.3.4], pid[608], build[a70f3cc/2014-09-30T09:07:17Z]
+[2014-10-21 12:51:34,016][INFO ][node                     ] [Lianda] initializing ...
+[2014-10-21 12:51:34,020][INFO ][plugins                  ] [Lianda] loaded [], sites []
+[2014-10-21 12:51:36,138][INFO ][node                     ] [Lianda] initialized
+[2014-10-21 12:51:36,138][INFO ][node                     ] [Lianda] starting ...
+[2014-10-21 12:51:36,214][INFO ][transport                ] [Lianda] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.25.55.105:9300]}
+[2014-10-21 12:51:36,240][INFO ][discovery                ] [Lianda] elasticsearch/FegLxo3aQO2fNjbKyVvLLQ
+[2014-10-21 12:51:39,251][INFO ][cluster.service          ] [Lianda] new_master [Lianda][FegLxo3aQO2fNjbKyVvLLQ][xiawMac.local][inet[/172.25.55.105:9300]], reason: zen-disco-join (elected_as_master)
+[2014-10-21 12:51:39,272][INFO ][http                     ] [Lianda] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.25.55.105:9200]}
+[2014-10-21 12:51:39,272][INFO ][node                     ] [Lianda] started
+[2014-10-21 12:51:39,666][INFO ][gateway                  ] [Lianda] recovered [3] indices into cluster_state
+[2014-10-21 12:51:48,662][INFO ][cluster.metadata         ] [Lianda] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 12:51:48,734][INFO ][cluster.metadata         ] [Lianda] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 12:51:49,187][INFO ][cluster.metadata         ] [Lianda] [test-index] deleting index
+[2014-10-21 12:54:56,199][INFO ][cluster.metadata         ] [Lianda] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 12:54:56,236][INFO ][cluster.metadata         ] [Lianda] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 12:54:56,794][INFO ][cluster.metadata         ] [Lianda] [test-index] deleting index
+[2014-10-21 12:55:35,283][INFO ][cluster.metadata         ] [Lianda] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 12:55:35,312][INFO ][cluster.metadata         ] [Lianda] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 12:55:35,505][INFO ][cluster.metadata         ] [Lianda] [test-index] deleting index
+[2014-10-21 13:14:38,532][INFO ][cluster.metadata         ] [Lianda] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 13:14:38,559][INFO ][cluster.metadata         ] [Lianda] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 13:14:38,741][INFO ][cluster.metadata         ] [Lianda] [test-index] deleting index
+[2014-10-21 13:15:04,753][INFO ][cluster.metadata         ] [Lianda] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 13:15:04,784][INFO ][cluster.metadata         ] [Lianda] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 13:15:04,972][INFO ][cluster.metadata         ] [Lianda] [test-index] deleting index
+[2014-10-21 13:16:01,740][INFO ][cluster.metadata         ] [Lianda] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 13:16:01,765][INFO ][cluster.metadata         ] [Lianda] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 13:16:07,835][INFO ][index.engine.internal    ] [Lianda] [test-index][4] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:16:07,842][INFO ][index.engine.internal    ] [Lianda] [test-index][4] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:16:23,857][INFO ][index.engine.internal    ] [Lianda] [test-index][4] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:16:23,864][INFO ][index.engine.internal    ] [Lianda] [test-index][4] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:18:24,549][INFO ][cluster.metadata         ] [Lianda] [test-index] deleting index
+[2014-10-21 13:31:45,943][INFO ][cluster.metadata         ] [Lianda] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 13:31:45,969][INFO ][cluster.metadata         ] [Lianda] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 13:31:49,957][INFO ][index.engine.internal    ] [Lianda] [test-index][0] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:31:49,963][INFO ][index.engine.internal    ] [Lianda] [test-index][0] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:31:49,971][INFO ][index.engine.internal    ] [Lianda] [test-index][3] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:31:49,984][INFO ][index.engine.internal    ] [Lianda] [test-index][3] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:31:50,989][INFO ][index.engine.internal    ] [Lianda] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:31:50,992][INFO ][index.engine.internal    ] [Lianda] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:31:51,990][INFO ][index.engine.internal    ] [Lianda] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:31:51,996][INFO ][index.engine.internal    ] [Lianda] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:31:52,005][INFO ][index.engine.internal    ] [Lianda] [test-index][4] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:31:52,011][INFO ][index.engine.internal    ] [Lianda] [test-index][4] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:03,048][INFO ][index.engine.internal    ] [Lianda] [test-index][2] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:03,057][INFO ][index.engine.internal    ] [Lianda] [test-index][2] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:20,065][INFO ][index.engine.internal    ] [Lianda] [test-index][2] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:20,081][INFO ][index.engine.internal    ] [Lianda] [test-index][2] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:32,000][INFO ][index.engine.internal    ] [Lianda] [test-index][0] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:32,008][INFO ][index.engine.internal    ] [Lianda] [test-index][0] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:32,038][INFO ][index.engine.internal    ] [Lianda] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:32,053][INFO ][index.engine.internal    ] [Lianda] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:34,020][INFO ][index.engine.internal    ] [Lianda] [test-index][3] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:34,032][INFO ][index.engine.internal    ] [Lianda] [test-index][3] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:34,041][INFO ][index.engine.internal    ] [Lianda] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:34,054][INFO ][index.engine.internal    ] [Lianda] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:35,020][INFO ][index.engine.internal    ] [Lianda] [test-index][3] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:35,039][INFO ][index.engine.internal    ] [Lianda] [test-index][3] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:38,006][INFO ][index.engine.internal    ] [Lianda] [test-index][0] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:38,017][INFO ][index.engine.internal    ] [Lianda] [test-index][0] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:38,048][INFO ][index.engine.internal    ] [Lianda] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:38,056][INFO ][index.engine.internal    ] [Lianda] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:38,074][INFO ][index.engine.internal    ] [Lianda] [test-index][4] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:38,082][INFO ][index.engine.internal    ] [Lianda] [test-index][4] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:40,033][INFO ][index.engine.internal    ] [Lianda] [test-index][3] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:40,041][INFO ][index.engine.internal    ] [Lianda] [test-index][3] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:40,057][INFO ][index.engine.internal    ] [Lianda] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:40,069][INFO ][index.engine.internal    ] [Lianda] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:44,063][INFO ][index.engine.internal    ] [Lianda] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:44,078][INFO ][index.engine.internal    ] [Lianda] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:44,083][INFO ][index.engine.internal    ] [Lianda] [test-index][4] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:44,096][INFO ][index.engine.internal    ] [Lianda] [test-index][4] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:55,124][INFO ][index.engine.internal    ] [Lianda] [test-index][4] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:55,128][INFO ][index.engine.internal    ] [Lianda] [test-index][4] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:32:59,136][INFO ][index.engine.internal    ] [Lianda] [test-index][2] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:32:59,145][INFO ][index.engine.internal    ] [Lianda] [test-index][2] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:33:01,045][INFO ][index.engine.internal    ] [Lianda] [test-index][0] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:33:01,060][INFO ][index.engine.internal    ] [Lianda] [test-index][0] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:33:09,132][INFO ][index.engine.internal    ] [Lianda] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:33:09,141][INFO ][index.engine.internal    ] [Lianda] [test-index][4] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:33:09,143][INFO ][index.engine.internal    ] [Lianda] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:33:09,165][INFO ][index.engine.internal    ] [Lianda] [test-index][4] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:33:10,079][INFO ][index.engine.internal    ] [Lianda] [test-index][3] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:33:10,089][INFO ][index.engine.internal    ] [Lianda] [test-index][3] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:33:10,163][INFO ][index.engine.internal    ] [Lianda] [test-index][4] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:33:10,174][INFO ][index.engine.internal    ] [Lianda] [test-index][4] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:33:17,087][INFO ][index.engine.internal    ] [Lianda] [test-index][3] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:33:17,094][INFO ][index.engine.internal    ] [Lianda] [test-index][3] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:33:18,071][INFO ][index.engine.internal    ] [Lianda] [test-index][0] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:33:18,083][INFO ][index.engine.internal    ] [Lianda] [test-index][0] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:33:18,143][INFO ][index.engine.internal    ] [Lianda] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:33:18,157][INFO ][index.engine.internal    ] [Lianda] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:33:18,191][DEBUG][action.search.type       ] [Lianda] [test-index][2], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2b3d6b03] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][2]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:33:18,191][DEBUG][action.search.type       ] [Lianda] [test-index][1], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2b3d6b03] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][1]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:33:18,191][DEBUG][action.search.type       ] [Lianda] [test-index][0], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2b3d6b03] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][0]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:33:18,191][DEBUG][action.search.type       ] [Lianda] [test-index][3], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2b3d6b03] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][3]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:33:18,191][DEBUG][action.search.type       ] [Lianda] [test-index][4], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2b3d6b03]
+org.elasticsearch.search.SearchParseException: [test-index][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][4]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:33:18,195][DEBUG][action.search.type       ] [Lianda] All shards failed for phase: [query]
+[2014-10-21 13:33:49,699][DEBUG][action.search.type       ] [Lianda] [test-index][2], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3bb3310] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][2]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:33:49,699][DEBUG][action.search.type       ] [Lianda] [test-index][1], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3bb3310]
+org.elasticsearch.search.SearchParseException: [test-index][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][1]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:33:49,700][DEBUG][action.search.type       ] [Lianda] All shards failed for phase: [query]
+[2014-10-21 13:33:49,699][DEBUG][action.search.type       ] [Lianda] [test-index][0], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3bb3310] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][0]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:33:49,699][DEBUG][action.search.type       ] [Lianda] [test-index][3], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3bb3310] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][3]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:33:49,699][DEBUG][action.search.type       ] [Lianda] [test-index][4], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@3bb3310] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][4]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:34:21,505][DEBUG][action.search.type       ] [Lianda] [test-index][3], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4642b9ab] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][3]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:34:21,505][DEBUG][action.search.type       ] [Lianda] [test-index][0], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4642b9ab]
+org.elasticsearch.search.SearchParseException: [test-index][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][0]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:34:21,506][DEBUG][action.search.type       ] [Lianda] All shards failed for phase: [query]
+[2014-10-21 13:34:21,505][DEBUG][action.search.type       ] [Lianda] [test-index][1], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4642b9ab] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][1]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:34:21,505][DEBUG][action.search.type       ] [Lianda] [test-index][2], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4642b9ab] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][2]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:34:21,505][DEBUG][action.search.type       ] [Lianda] [test-index][4], node[FegLxo3aQO2fNjbKyVvLLQ], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4642b9ab] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][4]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:34:32,244][INFO ][node                     ] [Lianda] stopping ...
+[2014-10-21 13:34:32,298][INFO ][node                     ] [Lianda] stopped
+[2014-10-21 13:34:32,298][INFO ][node                     ] [Lianda] closing ...
+[2014-10-21 13:34:32,303][INFO ][node                     ] [Lianda] closed
+[2014-10-21 13:35:01,630][INFO ][node                     ] [Lancer] version[1.3.4], pid[889], build[a70f3cc/2014-09-30T09:07:17Z]
+[2014-10-21 13:35:01,631][INFO ][node                     ] [Lancer] initializing ...
+[2014-10-21 13:35:01,633][INFO ][plugins                  ] [Lancer] loaded [], sites []
+[2014-10-21 13:35:03,167][INFO ][node                     ] [Lancer] initialized
+[2014-10-21 13:35:03,168][INFO ][node                     ] [Lancer] starting ...
+[2014-10-21 13:35:03,220][INFO ][transport                ] [Lancer] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.25.55.105:9300]}
+[2014-10-21 13:35:03,232][INFO ][discovery                ] [Lancer] elasticsearch/eHg8z3wHRQikEpBZQ-clnw
+[2014-10-21 13:35:06,241][INFO ][cluster.service          ] [Lancer] new_master [Lancer][eHg8z3wHRQikEpBZQ-clnw][xiawMac.local][inet[/172.25.55.105:9300]], reason: zen-disco-join (elected_as_master)
+[2014-10-21 13:35:06,258][INFO ][http                     ] [Lancer] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.25.55.105:9200]}
+[2014-10-21 13:35:06,259][INFO ][node                     ] [Lancer] started
+[2014-10-21 13:35:06,561][INFO ][gateway                  ] [Lancer] recovered [4] indices into cluster_state
+[2014-10-21 13:35:11,407][DEBUG][action.search.type       ] [Lancer] [test-index][1], node[eHg8z3wHRQikEpBZQ-clnw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2c39e736] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][1]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:35:11,407][DEBUG][action.search.type       ] [Lancer] [test-index][0], node[eHg8z3wHRQikEpBZQ-clnw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2c39e736] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][0]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:35:11,407][DEBUG][action.search.type       ] [Lancer] [test-index][3], node[eHg8z3wHRQikEpBZQ-clnw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2c39e736] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][3]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][3]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:35:11,407][DEBUG][action.search.type       ] [Lancer] [test-index][2], node[eHg8z3wHRQikEpBZQ-clnw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2c39e736] lastShard [true]
+org.elasticsearch.search.SearchParseException: [test-index][2]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][2]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:35:11,407][DEBUG][action.search.type       ] [Lancer] [test-index][4], node[eHg8z3wHRQikEpBZQ-clnw], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@2c39e736]
+org.elasticsearch.search.SearchParseException: [test-index][4]: from[-1],size[-1]: Parse Failure [Failed to parse source [{"operator": "and", "query": {"match": {"text": "Lactose rousseaua@immunex.com"}}}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:660)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:516)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:488)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:257)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:206)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:203)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:517)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.search.SearchParseException: [test-index][4]: from[-1],size[-1]: Parse Failure [No parser for element [operator]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:642)
+	... 9 more
+[2014-10-21 13:35:11,409][DEBUG][action.search.type       ] [Lancer] All shards failed for phase: [query]
+[2014-10-21 13:37:52,504][INFO ][cluster.metadata         ] [Lancer] [test-index] deleting index
+[2014-10-21 13:49:41,439][INFO ][cluster.metadata         ] [Lancer] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 13:49:41,482][INFO ][cluster.metadata         ] [Lancer] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 13:49:41,675][INFO ][cluster.metadata         ] [Lancer] [test-index] deleting index
+[2014-10-21 13:53:32,349][INFO ][cluster.metadata         ] [Lancer] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 13:53:32,375][INFO ][cluster.metadata         ] [Lancer] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 13:54:14,483][INFO ][index.engine.internal    ] [Lancer] [test-index][2] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:14,491][INFO ][index.engine.internal    ] [Lancer] [test-index][2] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:19,491][INFO ][index.engine.internal    ] [Lancer] [test-index][2] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:19,503][INFO ][index.engine.internal    ] [Lancer] [test-index][2] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:20,417][INFO ][index.engine.internal    ] [Lancer] [test-index][0] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:20,428][INFO ][index.engine.internal    ] [Lancer] [test-index][0] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:22,497][INFO ][index.engine.internal    ] [Lancer] [test-index][2] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:22,504][INFO ][index.engine.internal    ] [Lancer] [test-index][2] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:33,434][INFO ][index.engine.internal    ] [Lancer] [test-index][0] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:33,441][INFO ][index.engine.internal    ] [Lancer] [test-index][0] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:39,526][INFO ][index.engine.internal    ] [Lancer] [test-index][2] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:39,541][INFO ][index.engine.internal    ] [Lancer] [test-index][2] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:42,442][INFO ][index.engine.internal    ] [Lancer] [test-index][0] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:42,453][INFO ][index.engine.internal    ] [Lancer] [test-index][0] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:42,502][INFO ][index.engine.internal    ] [Lancer] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:42,515][INFO ][index.engine.internal    ] [Lancer] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:46,458][INFO ][index.engine.internal    ] [Lancer] [test-index][0] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:46,466][INFO ][index.engine.internal    ] [Lancer] [test-index][0] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:46,535][INFO ][index.engine.internal    ] [Lancer] [test-index][2] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:46,546][INFO ][index.engine.internal    ] [Lancer] [test-index][2] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:48,508][INFO ][index.engine.internal    ] [Lancer] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:48,522][INFO ][index.engine.internal    ] [Lancer] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:50,461][INFO ][index.engine.internal    ] [Lancer] [test-index][0] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:50,472][INFO ][index.engine.internal    ] [Lancer] [test-index][0] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:54,534][INFO ][index.engine.internal    ] [Lancer] [test-index][4] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:54,544][INFO ][index.engine.internal    ] [Lancer] [test-index][4] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:55,502][INFO ][index.engine.internal    ] [Lancer] [test-index][3] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:55,531][INFO ][index.engine.internal    ] [Lancer] [test-index][3] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:54:59,508][INFO ][index.engine.internal    ] [Lancer] [test-index][3] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:54:59,528][INFO ][index.engine.internal    ] [Lancer] [test-index][3] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:55:05,529][INFO ][index.engine.internal    ] [Lancer] [test-index][3] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:55:05,541][INFO ][index.engine.internal    ] [Lancer] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:55:05,542][INFO ][index.engine.internal    ] [Lancer] [test-index][3] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:55:05,559][INFO ][index.engine.internal    ] [Lancer] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:55:06,482][INFO ][index.engine.internal    ] [Lancer] [test-index][0] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:55:06,494][INFO ][index.engine.internal    ] [Lancer] [test-index][0] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:55:06,571][INFO ][index.engine.internal    ] [Lancer] [test-index][2] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:55:06,581][INFO ][index.engine.internal    ] [Lancer] [test-index][2] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:55:08,545][INFO ][index.engine.internal    ] [Lancer] [test-index][1] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:55:08,554][INFO ][index.engine.internal    ] [Lancer] [test-index][1] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:55:08,583][INFO ][index.engine.internal    ] [Lancer] [test-index][2] now throttling indexing: numMergesInFlight=6, maxNumMerges=5
+[2014-10-21 13:55:08,598][INFO ][index.engine.internal    ] [Lancer] [test-index][2] stop throttling indexing: numMergesInFlight=4, maxNumMerges=5
+[2014-10-21 13:55:08,725][INFO ][cluster.metadata         ] [Lancer] [test-index] deleting index
+[2014-10-21 13:58:29,371][INFO ][cluster.metadata         ] [Lancer] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 13:58:29,395][INFO ][cluster.metadata         ] [Lancer] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 13:58:29,529][INFO ][cluster.metadata         ] [Lancer] [test-index] deleting index
+[2014-10-21 13:59:25,913][INFO ][cluster.metadata         ] [Lancer] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 13:59:25,941][INFO ][cluster.metadata         ] [Lancer] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 13:59:26,060][INFO ][cluster.metadata         ] [Lancer] [test-index] deleting index
+[2014-10-21 14:00:23,591][INFO ][cluster.metadata         ] [Lancer] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 14:00:23,622][INFO ][cluster.metadata         ] [Lancer] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 14:00:23,736][INFO ][cluster.metadata         ] [Lancer] [test-index] deleting index
+[2014-10-21 14:00:31,601][INFO ][cluster.metadata         ] [Lancer] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 14:00:31,626][INFO ][cluster.metadata         ] [Lancer] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 14:00:31,755][INFO ][cluster.metadata         ] [Lancer] [test-index] deleting index
+[2014-10-21 14:04:41,232][INFO ][cluster.metadata         ] [Lancer] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 14:04:41,255][INFO ][cluster.metadata         ] [Lancer] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 14:04:41,379][INFO ][cluster.metadata         ] [Lancer] [test-index] deleting index
+[2014-10-21 14:05:11,639][INFO ][cluster.metadata         ] [Lancer] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 14:05:11,666][INFO ][cluster.metadata         ] [Lancer] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 14:05:11,785][INFO ][cluster.metadata         ] [Lancer] [test-index] deleting index
+[2014-10-21 14:05:15,925][INFO ][cluster.metadata         ] [Lancer] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 14:05:15,945][INFO ][cluster.metadata         ] [Lancer] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 14:05:16,046][INFO ][cluster.metadata         ] [Lancer] [test-index] deleting index
