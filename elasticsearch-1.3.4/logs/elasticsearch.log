@@ -480,3 +480,29 @@ Caused by: org.elasticsearch.search.SearchParseException: [test-index][4]: from[
 [2014-10-21 14:05:15,925][INFO ][cluster.metadata         ] [Lancer] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
 [2014-10-21 14:05:15,945][INFO ][cluster.metadata         ] [Lancer] [test-index] update_mapping [tweet] (dynamic)
 [2014-10-21 14:05:16,046][INFO ][cluster.metadata         ] [Lancer] [test-index] deleting index
+[2014-10-21 19:26:46,644][INFO ][node                     ] [Ulik] version[1.3.4], pid[511], build[a70f3cc/2014-09-30T09:07:17Z]
+[2014-10-21 19:26:46,644][INFO ][node                     ] [Ulik] initializing ...
+[2014-10-21 19:26:46,648][INFO ][plugins                  ] [Ulik] loaded [], sites []
+[2014-10-21 19:26:48,784][INFO ][node                     ] [Ulik] initialized
+[2014-10-21 19:26:48,784][INFO ][node                     ] [Ulik] starting ...
+[2014-10-21 19:26:48,872][INFO ][transport                ] [Ulik] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.25.55.105:9300]}
+[2014-10-21 19:26:48,902][INFO ][discovery                ] [Ulik] elasticsearch/dm4iOA1NTkS6mKhvmrBOVw
+[2014-10-21 19:26:51,912][INFO ][cluster.service          ] [Ulik] new_master [Ulik][dm4iOA1NTkS6mKhvmrBOVw][xiawMac.local][inet[/172.25.55.105:9300]], reason: zen-disco-join (elected_as_master)
+[2014-10-21 19:26:51,929][INFO ][http                     ] [Ulik] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.25.55.105:9200]}
+[2014-10-21 19:26:51,930][INFO ][node                     ] [Ulik] started
+[2014-10-21 19:26:52,352][INFO ][gateway                  ] [Ulik] recovered [3] indices into cluster_state
+[2014-10-21 19:28:15,604][INFO ][cluster.service          ] [Ulik] added {[Infant Terrible][iq5_85bbSqSB8m4SKddgqA][xiawMac.local][inet[/172.25.55.105:9301]],}, reason: zen-disco-receive(join from node[[Infant Terrible][iq5_85bbSqSB8m4SKddgqA][xiawMac.local][inet[/172.25.55.105:9301]]])
+[2014-10-21 19:28:15,629][INFO ][gateway.local.state.meta ] [Ulik] auto importing dangled indices [test-index/OPEN][news-index/OPEN] from [[Infant Terrible][iq5_85bbSqSB8m4SKddgqA][xiawMac.local][inet[/172.25.55.105:9301]]]
+[2014-10-21 19:28:36,226][INFO ][cluster.service          ] [Ulik] removed {[Infant Terrible][iq5_85bbSqSB8m4SKddgqA][xiawMac.local][inet[/172.25.55.105:9301]],}, reason: zen-disco-node_left([Infant Terrible][iq5_85bbSqSB8m4SKddgqA][xiawMac.local][inet[/172.25.55.105:9301]])
+[2014-10-21 19:30:25,189][INFO ][cluster.metadata         ] [Ulik] [test-index] deleting index
+[2014-10-21 19:30:37,628][INFO ][cluster.metadata         ] [Ulik] [news-index] deleting index
+[2014-10-21 19:30:47,924][INFO ][cluster.metadata         ] [Ulik] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 19:30:47,967][INFO ][cluster.metadata         ] [Ulik] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 19:30:48,397][INFO ][cluster.metadata         ] [Ulik] [test-index] deleting index
+[2014-10-21 19:35:16,265][INFO ][cluster.metadata         ] [Ulik] [test-index] creating index, cause [auto(index api)], shards [5]/[1], mappings []
+[2014-10-21 19:35:16,298][INFO ][cluster.metadata         ] [Ulik] [test-index] update_mapping [tweet] (dynamic)
+[2014-10-21 19:35:16,853][INFO ][cluster.metadata         ] [Ulik] [test-index] deleting index
+[2014-10-21 19:36:40,994][INFO ][node                     ] [Ulik] stopping ...
+[2014-10-21 19:36:41,017][INFO ][node                     ] [Ulik] stopped
+[2014-10-21 19:36:41,017][INFO ][node                     ] [Ulik] closing ...
+[2014-10-21 19:36:41,020][INFO ][node                     ] [Ulik] closed
