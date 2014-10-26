@@ -4,33 +4,38 @@ import unittest
 
 from SearchStrings import *
 
+ELASTICSEARCH_LAUNCH_CMD = './elasticsearch-1.3.4/bin/elasticsearch'
+
 
 class SearchStringsTest(unittest.TestCase):
     def test(self):
+
         search = SearchStrings()
+        try:
+            p = subprocess.Popen([ELASTICSEARCH_LAUNCH_CMD], stdin=PIPE, stderr=PIPE, stdout=PIPE, shell=True)
+            search.is_elasticsearch_ready()
 
-        # case 0
-        # No query string
-        self.assertEqual(search.main([]), "")
+            # case 0
+            # No query string
+            result_list = search.search_func([""])
+            result = '\n'.join(result_list.keys())
 
-        #case 1
-        # Result has less than 10
-        reference1 = "1th file:news/58057\n"
-        self.assertEqual(search.main(["rousseaua@immunex.com"]), reference1)
+            self.assertEqual(result, "")
 
-        #case 2
-        reference2 = """1th file:news/4/4f1
-2th file:news/4/4f3
-3th file:news/4/4f2
-4th file:news/4/4f4
-5th file:news/2/2f2
-6th file:news/3/3f1
-7th file:news/3/3f3
-8th file:news/3/3f2
-9th file:news/58057
-10th file:news/2/2f
-"""
-        self.assertEqual(search.main(["or", "is"]), reference2)
+            # case 1
+            # Result has less than 10
+            result_list = search.search_func(["rousseaua@immunex.com"])
+            result = True
+            reference1 = ["news/sci.med/58057", "news/sci.med/58056", "news/sci.med/59232", "news/sci.med/58987"]
+            for it in result_list:
+                if it not in reference1:
+                    result = False
+                    break
+            self.assertEqual(result, True)
+        except:
+            pass
+        finally:
+            p.kill()
 
 
 if __name__ == '__main__':
