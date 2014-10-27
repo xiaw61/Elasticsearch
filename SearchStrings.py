@@ -9,7 +9,7 @@ from subprocess import PIPE
 from elasticsearch import Elasticsearch
 
 
-TARGET_FOLDER = "news"
+TARGET_FOLDER = "target_folder"
 ELASTICSEARCH_LAUNCH_CMD = './elasticsearch-1.3.4/bin/elasticsearch'
 
 
