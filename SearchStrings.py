@@ -70,6 +70,10 @@ class SearchStrings:
 
 
 def main():
+    if len(sys.argv) < 2:
+        print "Please input the search strings"
+        sys.exit(1)
+
     search = SearchStrings()
     query_strings = " ".join(sys.argv[1:])
     result_list = None
