@@ -26,7 +26,9 @@ class SearchStringsTest(unittest.TestCase):
             # Result has less than 10
             result_list = search.search_func(["rousseaua@immunex.com"])
             result = True
-            reference1 = ["news/sci.med/58057", "news/sci.med/58056", "news/sci.med/59232", "news/sci.med/58987"]
+            reference1 = ["target_folder/20news-1882/sci.med/58057", "target_folder/20news-1882/sci.med/58056",
+                          "target_folder/20news-1882/sci.med/59232", "target_folder/20news-1882/sci.med/58987"]
+
             for it in result_list:
                 if it not in reference1:
                     result = False
