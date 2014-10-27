@@ -22,7 +22,6 @@ class SearchStrings:
             for dataFile in files:
                 file_name = root + "/" + dataFile
                 try:
-                    print file_name
                     fo = codecs.open(file_name, encoding='utf-8', errors='strict')
                     content = {"fileName": fo.name, "text": fo.read()}
                     fo.close()
