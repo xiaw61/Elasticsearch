@@ -58,16 +58,8 @@ class SearchStrings:
     # finish when the search engine is ready to use
     def is_elasticsearch_ready(self):
         print "Checking whether search engine is ready..."
-        es_status = None
-        time.sleep(10)
-        while es_status is None:
-            try:
-                self.es.cluster.health(wait_for_status='yellow', request_timeout=40)
-                es_status = 1
-            except Exception as e:
-                print e
-                pass
-
+        time.sleep(20)
+        self.es.cluster.health(wait_for_status='yellow', request_timeout=120)
 
 def main():
     if len(sys.argv) < 2:
