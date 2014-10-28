@@ -5,6 +5,7 @@ import codecs
 import subprocess
 import time
 from subprocess import PIPE
+import logging
 
 from elasticsearch import Elasticsearch
 
@@ -17,6 +18,7 @@ class SearchStrings:
         self.es = Elasticsearch()
 
     def save_text2engine(self):
+        logging.getLogger("elasticsearch").setLevel(logging.ERROR)
         content = None
         for root, subFolders, files in os.walk(TARGET_FOLDER):
             for dataFile in files:
@@ -59,7 +61,6 @@ class SearchStrings:
         print "Checking whether search engine is ready..."
         time.sleep(20)
         self.es.cluster.health(wait_for_status='yellow', request_timeout=120)
-        self.es.indices.refresh(index="test-index")
 
 def main():
     if len(sys.argv) < 2:
