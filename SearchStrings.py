@@ -8,7 +8,6 @@ from subprocess import PIPE
 
 from elasticsearch import Elasticsearch
 
-
 TARGET_FOLDER = "target_folder"
 ELASTICSEARCH_LAUNCH_CMD = './elasticsearch-1.3.4/bin/elasticsearch'
 
@@ -18,6 +17,7 @@ class SearchStrings:
         self.es = Elasticsearch()
 
     def save_text2engine(self):
+        content = None
         for root, subFolders, files in os.walk(TARGET_FOLDER):
             for dataFile in files:
                 file_name = root + "/" + dataFile
@@ -25,11 +25,15 @@ class SearchStrings:
                     fo = codecs.open(file_name, encoding='utf-8', errors='strict')
                     content = {"fileName": fo.name, "text": fo.read()}
                     fo.close()
-                    self.es.index(index="test-index", doc_type='tweet', body=content, id=file_name)
+                    self.es.index(index="test-index", doc_type='tweet', body=content, id=file_name, op_type="create")
                     self.es.indices.refresh(index="test-index")
                 # If the file if not valid "utf-8" file, do not index it
                 except UnicodeDecodeError:
                     pass
+                except Exception as e:
+                    res = self.es.get(index="test-index", id=file_name)
+                    if res['_source']['text'] != content['text']:
+                        self.es.index(index="test-index", doc_type='tweet', body=content, id=file_name)
 
     # The method that search all files in the target directory than contain the query string list
     def search_func(self, query_string):
@@ -55,6 +59,7 @@ class SearchStrings:
         print "Checking whether search engine is ready..."
         time.sleep(20)
         self.es.cluster.health(wait_for_status='yellow', request_timeout=120)
+        self.es.indices.refresh(index="test-index")
 
 def main():
     if len(sys.argv) < 2:

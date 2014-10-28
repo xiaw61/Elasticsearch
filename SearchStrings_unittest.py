@@ -14,7 +14,7 @@ class SearchStringsTest(unittest.TestCase):
         try:
             p = subprocess.Popen([ELASTICSEARCH_LAUNCH_CMD], stdin=PIPE, stderr=PIPE, stdout=PIPE, shell=True)
             search.is_elasticsearch_ready()
-
+            search.save_text2engine()
             # case 0
             # No query string
             result_list = search.search_func([""])
